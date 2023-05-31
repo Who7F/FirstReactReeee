@@ -1,6 +1,12 @@
+import Banner from '../components/banner'
+import Weekdays from '../components/weekdays'
+
 function Home(){
 	return(
-		<div>Home</div>
+		<div>
+			<Banner value='Reeee React' stuff ='well well well' />
+			<Weekdays weekend = '😈'/>
+		</div>
 	)
 }
 
